@@ -1,0 +1,56 @@
+{
+  "welcome": "👋 欢迎，{name}！\n\n我是您的个人<b>提醒机器人</b>。我会确保您不会错过任何重要的事情。\n\n使用下面的菜单开始。",
+  "choose_language": "🌐 请选择您的语言：",
+  "language_set": "✅ 语言已设置为中文！",
+  "main_menu": "📋 <b>主菜单</b>\n\n您想做什么？",
+  "btn_set_alarm": "⏰ 设置提醒",
+  "btn_my_alarms": "📋 我的提醒",
+  "btn_language": "🌐 语言",
+  "btn_subscribe": "💳 购买 / 续订订阅",
+  "btn_cancel": "❌ 取消",
+  "btn_back": "⬅️ 返回",
+  "no_subscription": "🔒 <b>需要订阅</b>\n\n此功能需要有效订阅。\n请购买套餐以继续。",
+  "subscription_active": "✅ 您的订阅有效期至：<b>{expiry}</b>",
+  "subscription_expired": "❌ 您的订阅已过期。",
+  "alarm": {
+    "select_month": "📅 <b>第 1/4 步 — 选择月份：</b>",
+    "select_day": "📅 <b>第 2/4 步 — 选择日期：</b>\n\n已选月份：<b>{month}</b>",
+    "select_hour": "🕐 <b>第 3/4 步 — 选择小时：</b>\n\n已选日期：<b>{date}</b>",
+    "select_minute": "🕐 <b>第 4/4 步 — 选择分钟：</b>\n\n当前时间：<b>{datetime}</b>",
+    "enter_message": "✏️ <b>即将完成！</b>\n\n现在输入您希望在 <b>{datetime}</b> 收到的提醒消息：",
+    "set_success": "✅ <b>提醒已设置！</b>\n\n您将在 <b>{datetime}</b> 收到提醒：\n\n_{message}_",
+    "fired": "⏰ <b>提醒！</b>\n\n{message}",
+    "list_header": "📋 <b>您的活跃提醒：</b>\n",
+    "list_item": "• [{id}] <b>{datetime}</b> — {message}",
+    "list_empty": "📭 您没有活跃的提醒。",
+    "delete_prompt": "🗑️ 发送您想删除的提醒 ID（例如 <code>42</code>）：",
+    "delete_success": "✅ 提醒 #{id} 已删除。",
+    "delete_not_found": "❌ 未找到提醒或该提醒不属于您。",
+    "cancelled": "❌ 提醒设置已取消。",
+    "past_time": "⚠️ 该时间已过去！请选择未来的日期/时间。",
+    "btn_delete": "🗑️ 删除提醒"
+  },
+  "admin": {
+    "panel": "🔐 <b>管理员面板</b>\n\n请选择操作：",
+    "btn_add_sub": "➕ 添加订阅",
+    "btn_remove_sub": "➖ 删除订阅",
+    "btn_stats": "📊 统计",
+    "ask_user_id": "👤 输入用户的 <b>Telegram ID</b>：",
+    "ask_expiry": "📅 输入到期日期（YYYY-MM-DD）：",
+    "sub_added": "✅ 已为用户 <code>{user_id}</code> 添加订阅至 <b>{expiry}</b>。",
+    "sub_removed": "✅ 用户 <code>{user_id}</code> 的订阅已删除。",
+    "user_not_found": "❌ 数据库中未找到用户 <code>{user_id}</code>。",
+    "invalid_date": "❌ 日期格式无效。请使用 YYYY-MM-DD。",
+    "stats": "📊 <b>机器人统计</b>\n\n👥 总用户数：<b>{users}</b>\n⏰ 活跃提醒数：<b>{alarms}</b>",
+    "unauthorized": "🚫 您无权使用管理员面板。"
+  },
+  "error": {
+    "generic": "⚠️ 发生意外错误。请重试。",
+    "invalid_input": "❌ 无效输入。请重试。"
+  },
+  "months": {
+    "1": "一月", "2": "二月", "3": "三月", "4": "四月",
+    "5": "五月", "6": "六月", "7": "七月", "8": "八月",
+    "9": "九月", "10": "十月", "11": "十一月", "12": "十二月"
+  }
+}

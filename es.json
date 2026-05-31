@@ -1,0 +1,56 @@
+{
+  "welcome": "👋 ¡Bienvenido/a, {name}!\n\nSoy tu <b>Bot de Recordatorios</b> personal. Me aseguraré de que nunca te pierdas nada importante.\n\nUsa el menú de abajo para comenzar.",
+  "choose_language": "🌐 Por favor, elige tu idioma:",
+  "language_set": "✅ ¡Idioma configurado en Español!",
+  "main_menu": "📋 <b>Menú Principal</b>\n\n¿Qué te gustaría hacer?",
+  "btn_set_alarm": "⏰ Configurar Alarma",
+  "btn_my_alarms": "📋 Mis Alarmas",
+  "btn_language": "🌐 Idioma",
+  "btn_subscribe": "💳 Comprar / Renovar Suscripción",
+  "btn_cancel": "❌ Cancelar",
+  "btn_back": "⬅️ Volver",
+  "no_subscription": "🔒 <b>Se Requiere Suscripción</b>\n\nEsta función requiere una suscripción activa.\nPor favor, adquiere un plan para continuar.",
+  "subscription_active": "✅ Tu suscripción está activa hasta: <b>{expiry}</b>",
+  "subscription_expired": "❌ Tu suscripción ha expirado.",
+  "alarm": {
+    "select_month": "📅 <b>Paso 1/4 — Selecciona el Mes:</b>",
+    "select_day": "📅 <b>Paso 2/4 — Selecciona el Día:</b>\n\nMes seleccionado: <b>{month}</b>",
+    "select_hour": "🕐 <b>Paso 3/4 — Selecciona la Hora:</b>\n\nFecha seleccionada: <b>{date}</b>",
+    "select_minute": "🕐 <b>Paso 4/4 — Selecciona los Minutos:</b>\n\nHora hasta ahora: <b>{datetime}</b>",
+    "enter_message": "✏️ <b>¡Casi listo!</b>\n\nAhora escribe el mensaje de recordatorio que deseas recibir el <b>{datetime}</b>:",
+    "set_success": "✅ <b>¡Recordatorio Configurado!</b>\n\nSerás recordado/a el <b>{datetime}</b> con:\n\n_{message}_",
+    "fired": "⏰ <b>¡Recordatorio!</b>\n\n{message}",
+    "list_header": "📋 <b>Tus Alarmas Activas:</b>\n",
+    "list_item": "• [{id}] <b>{datetime}</b> — {message}",
+    "list_empty": "📭 No tienes alarmas activas.",
+    "delete_prompt": "🗑️ Envía el ID de la alarma que quieres eliminar (ej. <code>42</code>):",
+    "delete_success": "✅ Alarma #{id} eliminada.",
+    "delete_not_found": "❌ Alarma no encontrada o no te pertenece.",
+    "cancelled": "❌ Configuración de alarma cancelada.",
+    "past_time": "⚠️ ¡Esa hora ya pasó! Por favor elige una fecha/hora futura.",
+    "btn_delete": "🗑️ Eliminar una Alarma"
+  },
+  "admin": {
+    "panel": "🔐 <b>Panel de Administración</b>\n\nElige una acción:",
+    "btn_add_sub": "➕ Añadir Suscripción",
+    "btn_remove_sub": "➖ Eliminar Suscripción",
+    "btn_stats": "📊 Estadísticas",
+    "ask_user_id": "👤 Ingresa el <b>ID de Telegram</b> del usuario:",
+    "ask_expiry": "📅 Ingresa la fecha de expiración (YYYY-MM-DD):",
+    "sub_added": "✅ Suscripción añadida para usuario <code>{user_id}</code> hasta <b>{expiry}</b>.",
+    "sub_removed": "✅ Suscripción eliminada para usuario <code>{user_id}</code>.",
+    "user_not_found": "❌ Usuario <code>{user_id}</code> no encontrado en la base de datos.",
+    "invalid_date": "❌ Formato de fecha inválido. Usa YYYY-MM-DD.",
+    "stats": "📊 <b>Estadísticas del Bot</b>\n\n👥 Total de usuarios: <b>{users}</b>\n⏰ Alarmas activas: <b>{alarms}</b>",
+    "unauthorized": "🚫 No estás autorizado/a para usar el panel de administración."
+  },
+  "error": {
+    "generic": "⚠️ Ocurrió un error inesperado. Por favor, inténtalo de nuevo.",
+    "invalid_input": "❌ Entrada inválida. Por favor, inténtalo de nuevo."
+  },
+  "months": {
+    "1": "Enero", "2": "Febrero", "3": "Marzo", "4": "Abril",
+    "5": "Mayo", "6": "Junio", "7": "Julio", "8": "Agosto",
+    "9": "Septiembre", "10": "Octubre", "11": "Noviembre", "12": "Diciembre"
+  }
+}

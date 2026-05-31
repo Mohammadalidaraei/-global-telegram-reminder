@@ -1,0 +1,56 @@
+{
+  "welcome": "👋 Welcome, {name}!\n\nI'm your personal <b>Reminder Bot</b>. I'll make sure you never miss anything important.\n\nUse the menu below to get started.",
+  "choose_language": "🌐 Please choose your language:",
+  "language_set": "✅ Language set to English!",
+  "main_menu": "📋 <b>Main Menu</b>\n\nWhat would you like to do?",
+  "btn_set_alarm": "⏰ Set Alarm",
+  "btn_my_alarms": "📋 My Alarms",
+  "btn_language": "🌐 Language",
+  "btn_subscribe": "💳 Buy / Renew Subscription",
+  "btn_cancel": "❌ Cancel",
+  "btn_back": "⬅️ Back",
+  "no_subscription": "🔒 <b>Subscription Required</b>\n\nThis feature requires an active subscription.\nPlease purchase a plan to continue.",
+  "subscription_active": "✅ Your subscription is active until: <b>{expiry}</b>",
+  "subscription_expired": "❌ Your subscription has expired.",
+  "alarm": {
+    "select_month": "📅 <b>Step 1/4 — Select Month:</b>",
+    "select_day": "📅 <b>Step 2/4 — Select Day:</b>\n\nMonth selected: <b>{month}</b>",
+    "select_hour": "🕐 <b>Step 3/4 — Select Hour:</b>\n\nDate selected: <b>{date}</b>",
+    "select_minute": "🕐 <b>Step 4/4 — Select Minute:</b>\n\nTime so far: <b>{datetime}</b>",
+    "enter_message": "✏️ <b>Almost done!</b>\n\nNow type the reminder message you want to receive at <b>{datetime}</b>:",
+    "set_success": "✅ <b>Reminder Set!</b>\n\nYou'll be reminded on <b>{datetime}</b> with:\n\n_{message}_",
+    "fired": "⏰ <b>Reminder!</b>\n\n{message}",
+    "list_header": "📋 <b>Your Active Alarms:</b>\n",
+    "list_item": "• [{id}] <b>{datetime}</b> — {message}",
+    "list_empty": "📭 You have no active alarms.",
+    "delete_prompt": "🗑️ Send the alarm ID you want to delete (e.g. <code>42</code>):",
+    "delete_success": "✅ Alarm #{id} deleted.",
+    "delete_not_found": "❌ Alarm not found or doesn't belong to you.",
+    "cancelled": "❌ Alarm setup cancelled.",
+    "past_time": "⚠️ That time is in the past! Please choose a future date/time.",
+    "btn_delete": "🗑️ Delete an Alarm"
+  },
+  "admin": {
+    "panel": "🔐 <b>Admin Panel</b>\n\nChoose an action:",
+    "btn_add_sub": "➕ Add Subscription",
+    "btn_remove_sub": "➖ Remove Subscription",
+    "btn_stats": "📊 Stats",
+    "ask_user_id": "👤 Enter the Telegram <b>User ID</b>:",
+    "ask_expiry": "📅 Enter expiry date (YYYY-MM-DD):",
+    "sub_added": "✅ Subscription added for user <code>{user_id}</code> until <b>{expiry}</b>.",
+    "sub_removed": "✅ Subscription removed for user <code>{user_id}</code>.",
+    "user_not_found": "❌ User <code>{user_id}</code> not found in the database.",
+    "invalid_date": "❌ Invalid date format. Use YYYY-MM-DD.",
+    "stats": "📊 <b>Bot Statistics</b>\n\n👥 Total users: <b>{users}</b>\n⏰ Active alarms: <b>{alarms}</b>",
+    "unauthorized": "🚫 You are not authorized to use the admin panel."
+  },
+  "error": {
+    "generic": "⚠️ An unexpected error occurred. Please try again.",
+    "invalid_input": "❌ Invalid input. Please try again."
+  },
+  "months": {
+    "1": "January", "2": "February", "3": "March", "4": "April",
+    "5": "May", "6": "June", "7": "July", "8": "August",
+    "9": "September", "10": "October", "11": "November", "12": "December"
+  }
+}
